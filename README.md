@@ -1,13 +1,4 @@
-# LangChain Academy 
-
-## Introduction
-
-Welcome to LangChain Academy! 
-This is a growing set of modules focused on foundational concepts within the LangChain ecosystem. 
-Module 0 is basic setup and Modules 1 - 4 focus on LangGraph, progressively adding more advanced themes. 
-In each module folder, you'll see a set of notebooks. A LangChain Academy accompanies each notebook 
-to guide you through the topic. Each module also has a `studio` subdirectory, with a set of relevant 
-graphs that we will explore using the LangGraph API and Studio.
+# Agentic AI Workshop 
 
 ## Setup
 
@@ -22,8 +13,8 @@ python3 --version
 
 ### Clone repo
 ```
-git clone https://github.com/langchain-ai/langchain-academy.git
-$ cd langchain-academy
+git clone https://github.com/koizachek/NTUT25.git
+$ cd NTUT25
 ```
 
 ### Create an environment and install dependencies
@@ -77,16 +68,16 @@ It's easy to sign up and offers a very generous free tier. Some lessons (in Modu
 
 * Set `TAVILY_API_KEY` in your environment.
 
-### Set up LangGraph Studio
+### If you have a Mac: Set up LangGraph Studio
 
-* Currently, Studio only has macOS support and needs Docker Desktop running.
+* needs Docker Desktop running.
 * Download the latest `.dmg` file [here](https://github.com/langchain-ai/langgraph-studio?tab=readme-ov-file#download)
 * Install Docker desktop for Mac [here](https://docs.docker.com/engine/install/)
 
 ### Running Studio
 Graphs for LangGraph Studio are in the `module-x/studio/` folders.
 
-* To use Studio, you will need to create a .env file with the relevant API keys
+* To use Studio, you will need to create a .env file with the relevant API keys in the studio file!
 * Run this from the command line to create these files for module 1 to 4, as an example:
 ```
 $ for i in {1..4}; do
