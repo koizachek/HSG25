@@ -15,8 +15,8 @@ python3 --version
 
 ### Clone repo
 ```
-git clone https://github.com/koizachek/NTUT25.git
-$ cd NTUT25
+git clone https://github.com/koizachek/HSG25.git
+$ cd HSG25
 ```
 
 ### Create an environment and install dependencies
