@@ -1,4 +1,6 @@
-# HSG Agentic AI Workshop
+# HSG Agentic AI Workshop Break 2025s
+
+Repository for the Workshop Materials on Agentic AI Conceptualization and Coding with LangChain.
 
 ## Setup
 
